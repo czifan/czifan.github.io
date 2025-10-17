@@ -13,6 +13,7 @@
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/research-framework.css">
   <link rel="icon" type="image/png" href="images/pku_icon.png">
 </head>
 
@@ -47,6 +48,8 @@
             </td>
           </tr>
         </tbody></table>
+
+        <div id="rf-container"></div>
 
         <!-- <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
         <tr>
@@ -414,6 +417,12 @@ hideallbibs();
 
 <!-- Google Analytics -->
 <!-- End Google Analytics -->
+
+<script src="js/load-fragment.js"></script>
+<script>
+  // 加载独立片段到占位容器
+  loadFragment('rf-container', 'research-framework.html');
+</script>
 
 </body>
 
