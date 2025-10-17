@@ -1,0 +1,42 @@
+/* Scoped styles for Research Framework */
+#research-framework .rf-stage {
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 16px 18px;
+  background: #fafafa;
+  min-height: 220px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+}
+#research-framework .rf-stage h4 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+#research-framework .rf-sub {
+  margin: 0 0 12px 0;
+  color: #666;
+  font-size: 13px;
+}
+#research-framework .rf-badges a {
+  display: inline-block;
+  margin: 4px 6px 0 0;
+  padding: 6px 10px;
+  font-size: 12px;
+  line-height: 1.2;
+  border-radius: 999px;
+  border: 1px solid #dcdcdc;
+  background: #fff;
+  text-decoration: none;
+  color: #333;
+  transition: all .15s ease;
+  white-space: nowrap;
+}
+#research-framework .rf-badges a:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+#research-framework .rf-legend {
+  margin-top: 10px;
+  font-size: 12px;
+  color: #777;
+}
